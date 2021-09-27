@@ -1,32 +1,26 @@
-# Prerequisites
-*.d
+# MacOS / Windows 等系统文件
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Node 依赖目录
+node_modules/
 
-# Precompiled Headers
-*.gch
-*.pch
+# 输出目录
+/dist
+*.tsbuildinfo
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 日志
+*.log
 
-# Fortran module files
-*.mod
-*.smod
+# 运行时数据
+pids
+*.pid
+*.pid.lock
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# 集成开发环境配置文件
+/.vscode/*.json
 
-# Executables
-*.exe
-*.out
-*.app
+# ESLint 缓存
+.eslintcache
+
+.idea/
